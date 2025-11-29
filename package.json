@@ -1,7 +1,7 @@
 {
   "name": "typha-ia-senegal",
   "version": "1.0.0",
-  "description": "Plateforme IA de gestion du Typha au S\u00e9n\u00e9gal",
+  "description": "Plateforme IA de gestion du Typha au Sénégal",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,8 +18,7 @@
     "@supabase/supabase-js": "^2.38.0",
     "leaflet": "^1.9.4",
     "react-leaflet": "^4.2.1",
-    "lucide-react": "^0.292.0",
-    "recharts": "^2.8.0"
+    "lucide-react": "^0.292.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
@@ -29,7 +28,7 @@
     "tailwindcss": "^3.3.5",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
-    "eslint": "^8.54.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.0.0"
   },
   "engines": {
