@@ -9,16 +9,16 @@ interface ZoneDetailsPanelProps {
   onUpdateZone: (zone: ZoneTypha) => void
 }
 
-export default function ZoneDetailsPanel({ 
-  zone, 
-  isOpen, 
-  onClose, 
-  onUpdateZone 
+export default function ZoneDetailsPanel({
+  zone,
+  isOpen,
+  onClose,
+  onUpdateZone
 }: ZoneDetailsPanelProps) {
   if (!isOpen || !zone) return null
 
   const handleMarkAsTreated = () => {
-    const updatedZone = {
+    const updatedZone: ZoneTypha = {
       ...zone,
       type_zone: 'traitée',
       niveau_risque: 'faible',
